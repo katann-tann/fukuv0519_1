@@ -21,6 +21,7 @@ namespace fukuv0519_1
         private void button1_Click(object sender, EventArgs e)
         {
             button1.Text = "岩立一樹";
+            this.button1.BackColor = Color.FromArgb(0, 222, 222);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -30,7 +31,7 @@ namespace fukuv0519_1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            button3.Top = 5;
+            button3.Top = 0;
         }
     }
 }
